@@ -1,0 +1,527 @@
+   *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+   } 
+
+
+    body {
+      font-family: Arial, sans-serif;
+
+     background-color: #f7ffff;
+     text-align: center;
+
+
+    }
+
+    p{
+      line-height: 30px;
+    
+
+    }
+
+    html{
+      scroll-behavior: smooth;
+      user-select: none;
+    }
+
+    h1{
+        text-align: center;
+        color: #2a293d;
+    }
+    
+    nav {
+      
+      padding: 5px;
+      text-align: center;
+      width: 100%;
+      height: 80px;
+
+
+
+    }
+
+  .logo{
+      color: whitesmoke;
+      font-size: 25px;
+      line-height: 80px;
+      padding-left: 80px;
+      font-weight: bold;
+      float: left;
+
+    }
+      
+header{
+  padding: -25px;
+
+}
+
+    nav ul {
+         
+         float: right;
+         margin-right: 20px;
+
+
+
+    }
+
+
+    nav ul li{
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 2px;
+
+
+    }
+nav ul li a{
+  color: whitesmoke;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+
+}
+
+  a.active,a:hover{
+  color: #cccccc;
+    font-weight: 100;
+    transition: .5s;
+
+
+  }
+  .checkbtn{
+       font-size: 25px;
+       color: white;
+       float: right;
+       line-height: 80px;
+       margin-right:40px ;
+       cursor: pointer;
+       display: none;
+
+  }
+#check{
+  display: none;
+}
+
+
+
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #060B4A;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+    }
+header{
+  background: #060B4A;
+}
+
+  
+#landing-page{
+  
+  background: #060B4A;
+  background: linear-gradient(to bottom, #060B4A 0%, #068396 100%);
+  height:550px;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+  z-index: 1;
+  background-clip: border-box;
+clip-path: polygon(100% 0%,
+ 0% 0% , 0.00% 89.73%,
+  1.00% 89.39%, 2.00% 89.09%, 
+  3.00% 88.82%, 4.00% 88.58%, 
+  5.00% 88.38%, 6.00% 88.23%,
+   7.00% 88.11%, 8.00% 88.03%,
+    9.00% 88.00%, 10.00% 88.01%, 
+    11.00% 88.06%, 12.00% 88.16%, 
+    13.00% 88.30%, 14.00% 88.47%, 15.00% 88.69%, 16.00% 88.94%, 17.00% 89.23%,
+     18.00% 89.55%, 19.00% 89.90%, 20.00% 90.27%, 21.00% 90.67%, 22.00% 91.09%, 
+     23.00% 91.52%, 24.00% 91.96%, 25.00% 92.41%, 26.00% 92.87%, 27.00% 93.32%, 
+     28.00% 93.77%, 29.00% 94.21%, 30.00% 94.64%, 31.00% 95.06%, 32.00% 95.45%, 33.00% 95.82%, 
+     34.00% 96.17%, 35.00% 96.48%, 36.00% 96.76%, 37.00% 97.01%, 38.00% 97.22%, 39.00% 97.39%, 40.00% 97.52%, 41.00% 97.61%, 42.00% 97.66%, 43.00% 97.66%, 44.00% 97.62%, 45.00% 97.54%, 46.00% 97.42%, 47.00% 97.26%, 48.00% 97.05%, 49.00% 96.81%, 50.00% 96.54%, 51.00% 96.23%, 52.00% 95.89%, 53.00% 95.52%, 54.00% 95.13%, 55.00% 94.72%, 56.00% 94.29%, 57.00% 93.85%, 58.00% 93.41%, 59.00% 92.95%, 60.00% 92.50%, 61.00% 92.04%, 62.00% 91.60%, 63.00% 91.16%, 64.00% 90.74%, 65.00% 90.34%, 66.00% 89.97%, 67.00% 89.61%, 68.00% 89.29%, 69.00% 88.99%, 70.00% 88.73%, 71.00% 88.51%, 72.00% 88.33%, 73.00% 88.18%, 74.00% 88.08%, 75.00% 88.02%, 76.00% 88.00%, 77.00% 88.02%, 78.00% 88.09%, 79.00% 88.20%, 80.00% 88.35%, 81.00% 88.54%, 82.00% 88.77%, 83.00% 89.04%, 84.00% 89.33%, 85.00% 89.66%, 86.00% 90.02%, 87.00% 90.40%, 88.00% 90.81%, 89.00% 91.23%, 90.00% 91.66%, 91.00% 92.11%, 92.00% 92.56%, 93.00% 93.02%, 94.00% 93.47%, 95.00% 93.92%, 96.00% 94.36%, 97.00% 94.78%, 98.00% 95.19%, 99.00% 95.58%, 100.00% 95.94%);
+ 
+
+
+
+}
+
+
+#showcase{
+
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  height: auto;
+  
+  
+}
+
+.adobe div{
+  display: inline-block;
+
+padding: 3%;
+
+
+}
+
+.adobe img{
+  width: 80%;
+
+}
+
+.main{
+ 
+  background-position: center;
+  background-size: cover;
+  float: left;
+  height: auto;
+
+}
+
+.container{
+
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+
+
+}
+
+.text-page{
+  padding: 20%;
+  height: 100px;
+
+}
+
+.container .text{
+  position: relative;
+  color: white;
+  font-size: 35px;
+  
+}
+
+.container .text.first-text{
+  color: whitesmoke;
+}
+
+.about-title{
+  color: whitesmoke;
+}
+
+.container p{
+  color: whitesmoke;
+
+}
+
+.hire-btn {
+  background: none;
+  color: white;
+  padding: 12px 20px;
+  border: solid 2px;
+  border-radius: 20px;
+  cursor: pointer;
+
+
+}
+
+#showcase span{
+  margin-top:100px;
+  font-size:45px;
+  margin-bottom:10px;
+  text-align: center;
+}
+
+.btnhire{
+  padding-top: 33px;
+}
+.text-page{
+  height: auto;
+  width: 100%;
+  padding-top: 14%;
+  
+}
+.text-page span{
+  font-size: 29px;
+}
+
+
+
+/**/
+.mission{
+ background:#2a293d;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#servicePage {
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+
+
+}
+
+.about-side{
+  width: 60%;
+
+}
+.nature{
+  width: 100%;
+  z-index: 1;
+
+
+
+}
+
+
+aside {
+  width: 40%;
+  float: right;
+  color: white;
+  margin: auto;
+
+}
+
+aside img::before{
+  width: 40%;
+  color: black;
+  opacity: 30%;
+
+}
+
+#servicePage{
+  color: #068396;
+}
+#servicePage p{
+  color: black;
+}
+
+.service-card {
+    width: 300px;
+
+    margin: 20px;
+    
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    
+    cursor: pointer;
+  
+}
+
+.service-card:hover{
+  border: solid 2px;
+}
+
+.service-card img {
+    max-width: 100%;
+}
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-row {
+  display: flex;
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.back{
+    float: right;
+    color: white;
+    margin: 22px;
+    padding:10px ;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+
+  .back:hover{
+color: #0082e6;
+transition: .5s;
+  }
+ h1, h3{
+  color: #068396;
+}
+
+
+  .column {
+  float: left;
+  width: 50%;
+
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+hr{
+  background-color: red;
+}
+
+#contact{
+  background:#01001e;
+
+
+}
+
+.details{
+  padding-top: 3%;
+}
+
+.details div{
+  display: inline-block;
+
+padding: 3%;
+
+
+}
+.mission h1,p{
+  padding: 15px;
+
+}
+hr{
+  color: white;
+  background: white;
+
+}
+
+    /* Responsive Styles */
+
+ @media only screen and (max-width: 952px) {
+
+html{
+  text-align: center;
+}
+.text-page{
+  width: 100%;
+}
+#showcase span{
+  font-size: 26px;
+}
+#showcase p {
+  font-size: 15px;
+}
+.about-side{
+  width: 100%;
+}
+  .column {
+    width: 100%;
+  }
+
+
+.logo{
+
+    font-size: 25px;
+    padding:2px 10px ;
+    margin-bottom:40px ;
+  }
+
+nav ul li a{
+  font-size: 16px;
+
+}
+
+
+  .checkbtn{
+    display: block;
+    font-size: 30px;
+  }
+
+  ul{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 67vh;
+    background-color: #000000b6;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+
+
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a{
+    font-size: 20px;
+
+  }
+
+  a:hover,a.active{
+    background: none;
+    color: #cccccc;
+    transition: .5s;
+
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+}
+
+    @media only screen and (max-width: 600px) {
+      .service-card {
+        width: 100%;
+    }
+      #container-mob{
+        padding-top: 8%;
+
+      }
+
+      #landing-page{
+        height: 500px;
+      }
+      .card{
+        width: 90%;
+      }
+      .gallery{
+        
+        display : block; 
+      }
+      
+
+      .cards{
+  display: block;
+}
+
+
+    }
